@@ -1,23 +1,18 @@
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import Item from './component/Item';
+
+import PreminiA from './images/avatar.jpg';
+
 
 function App() {
+
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Item image={PreminiA} name="Premini A"/>
+      <Item image={PreminiA} name="Premini B"/>
+      <Item image={PreminiA} name="Mini A"/>
+      <Item image={PreminiA} name="Mini B"/>
+      <Item image={PreminiA} name="Preinfantil A"/>
     </div>
   );
 }
