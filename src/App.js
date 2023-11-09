@@ -1,18 +1,16 @@
 import React from "react";
-import Item from './component/Item';
+import ItemContainer from './component/ItemContainer';
+import Title from './component/Title';
 
-import PreminiA from './images/avatar.jpg';
-
+import "./css/container.css";
+import "./css/app.css";
 
 function App() {
 
   return (
     <div className="App">
-      <Item image={PreminiA} name="Premini A"/>
-      <Item image={PreminiA} name="Premini B"/>
-      <Item image={PreminiA} name="Mini A"/>
-      <Item image={PreminiA} name="Mini B"/>
-      <Item image={PreminiA} name="Preinfantil A"/>
+      <Title/>
+      <ItemContainer/>
     </div>
   );
 }

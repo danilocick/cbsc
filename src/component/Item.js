@@ -3,14 +3,16 @@ import './../css/overlay.css';
 
 
 function Item(props) {
-    return(
-        <div>
-        <div class="container">
-            <img src={props.image} alt={props.image} className="image"/>
-            <div className="middle">
-                <div className="text">{props.name}</div>
+    return(           
+        <div className="column">
+            <div class="card">
+                <img src={props.image} alt={props.image} style={{width:"100%"}}/>
+                <div class="container">
+                    <h2>{props.name}</h2>
+                    <p className="title">{props.category}</p>
+                    <p><button className="button">Accedir</button></p>
+                </div>
             </div>
-        </div>
         </div>
     );
 }
