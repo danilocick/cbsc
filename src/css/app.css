@@ -1,10 +1,4 @@
 .header {
-    /* width: 100%;
-    float: left;
-    background-color: #f1f1f1;
-    padding: 80px;
-    text-align: center;
-    margin-bottom: 16px; */
     width: 100%;
     display: block;
     padding: 20px;
@@ -17,6 +11,12 @@
 }
 
 @media screen and (max-width: 650px) {
+    .header {
+        width: 100%;
+        display: block;
+        padding-bottom: 80px;
+        text-align: center;
+    }
     .header img {
         width: 100%;
         display: block;
