@@ -1,15 +1,10 @@
 {
   "files": {
-    "main.css": "/cbsc/static/css/main.9f417a44.css",
-    "main.js": "/cbsc/static/js/main.c6a16356.js",
-    "static/media/logo.png": "/cbsc/static/media/logo.45165a7d174e3b3ec669.png",
-    "static/media/avatar.jpg": "/cbsc/static/media/avatar.1276ae8b140ca7505434.jpg",
+    "main.js": "/cbsc/static/js/main.791facd5.js",
     "index.html": "/cbsc/index.html",
-    "main.9f417a44.css.map": "/cbsc/static/css/main.9f417a44.css.map",
-    "main.c6a16356.js.map": "/cbsc/static/js/main.c6a16356.js.map"
+    "main.791facd5.js.map": "/cbsc/static/js/main.791facd5.js.map"
   },
   "entrypoints": [
-    "static/css/main.9f417a44.css",
-    "static/js/main.c6a16356.js"
+    "static/js/main.791facd5.js"
   ]
 }
