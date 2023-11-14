@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import './../css/overlay.css';
 
 
@@ -10,7 +11,7 @@ function Item(props) {
                 <div class="container">
                     <h2>{props.name}</h2>
                     <p className="title">{props.category}</p>
-                    <p><button className="button">Accedir</button></p>
+                    <p><Link to="/team" className="button" team={props.name}>Accedir</Link></p>
                 </div>
             </div>
         </div>

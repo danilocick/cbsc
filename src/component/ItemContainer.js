@@ -9,7 +9,6 @@ import PreminiA from './../images/avatar.jpg';
 function ItemContainer(props) {
     return(
         <div className="row">
-            
                 <Item image={PreminiA} name="Pre-mini B" category="C. T. U09 - PRE-MINI"/>
                 <Item image={PreminiA} name="Pre-mini A" category="C. T. U10 - PRE-MINI"/>
                 <Item image={PreminiA} name="Mini B" category="C. T. U11 - MINI"/>

@@ -1,18 +1,18 @@
-import React from "react";
-import ItemContainer from './component/ItemContainer';
-import Title from './component/Title';
+import { Routes, Route } from "react-router-dom"
 
-import "./css/container.css";
-import "./css/app.css";
+import Team from "./component/Team"
+import Main from "./component/Main"
 
-function App() {
-
+const App = () => {
   return (
+ 
     <div className="App">
-      <Title/>
-      <ItemContainer/>
+      <Routes>
+        <Route path="/cbsc" element={ <Main /> } />
+        <Route path="/team" element={ <Team /> } />
+      </Routes>
     </div>
-  );
+  )
 }
 
-export default App;
+export default App
