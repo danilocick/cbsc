@@ -2,17 +2,17 @@ import React from "react";
 import { Link } from "react-router-dom";
 import "./../css/app.css";
 
-import a from "./../images/prema/a.JPG";
-import b from "./../images/prema/b.JPG";
-import c from "./../images/prema/c.JPG";
-import d from "./../images/prema/d.JPG";
-import e from "./../images/prema/e.JPG";
-import f from "./../images/prema/f.JPG";
-import g from "./../images/prema/g.JPG";
-import h from "./../images/prema/h.JPG";
-import i from "./../images/prema/i.JPG";
+import a from "./../images/premb/a.JPG";
+import b from "./../images/premb/b.JPG";
+import c from "./../images/premb/c.JPG";
+import d from "./../images/premb/d.JPG";
+import e from "./../images/premb/e.JPG";
+import f from "./../images/premb/f.JPG";
+import g from "./../images/premb/g.JPG";
+import h from "./../images/premb/h.JPG";
+import i from "./../images/premb/i.JPG";
 
-function PreminiA(props) {
+function PreminiB(props) {
 
     return (
       <div>
@@ -41,4 +41,4 @@ function PreminiA(props) {
     );
   }
 
-  export default PreminiA;
+  export default PreminiB;

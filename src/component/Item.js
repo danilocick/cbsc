@@ -11,7 +11,7 @@ function Item(props) {
                 <div class="container">
                     <h2>{props.name}</h2>
                     <p className="title">{props.category}</p>
-                    <p><Link to="/team" className="button" team={props.name}>Accedir</Link></p>
+                    <p><Link to={props.nav} className="button" team={props.name}>Accedir</Link></p>
                 </div>
             </div>
         </div>
